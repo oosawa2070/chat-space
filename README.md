@@ -2,8 +2,8 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|name|string|null: false,|
-|email|string|null: false,|
+|name|string|null: false|
+|email|string|null: false|
 |password|string|null: false|
 
 ### Association
@@ -14,8 +14,8 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|body|string|null: false,|
-|image|string|null: false,|
+|body|string|null: false|
+|image|string|null: false|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
@@ -27,7 +27,7 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|group_name|string|null: false,|
+|group_name|string|null: false|
 
 ### Association
 - has_many   :messarge
