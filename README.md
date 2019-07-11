@@ -16,7 +16,7 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|body|string|null: false|
+|body|text|null: false|
 |image|string|null: false|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
