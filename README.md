@@ -4,8 +4,8 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|name|string|null: false|
-|email|string|null: false|
+|name|string|null :false,add_index: true|
+|email|string|null :false, unique :true|
 |password|string|null: false|
 |index|string|null: false|
 
