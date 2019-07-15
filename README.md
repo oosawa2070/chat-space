@@ -7,7 +7,7 @@
 |name|string|null :false,index: true|
 |email|string|null :false, unique :true|
 |password|string|null: false|
-|index|string|null: false|
+
 
 ### Association
 - has_many  :members
