@@ -1,21 +1,21 @@
 $(function(){
 
   function buildHTML(data){
-    var html = `<div class="message">
-    <div class="upper-message">
-    <div class="upper-message__user-name">
-    ${data.user_name}
-    </div>
-    <div class="upper-message__date">
-       ${data.created_at}
-    </div>
-    </div>
-    <div class="lower-message">
-    <p class="lower-message__content">
-       ${data.content}
-    </p>
-    </div>
-    </div>`
+    var html =  `<div class="message">
+                  <div class="upper-message">
+                   <div class="upper-message__user-name">
+                     ${data.user_name}
+                   </div>
+                   <div class="upper-message__date">
+                     ${data.created_at}
+                   </div>
+                  </div>
+                 <div class="lower-message">
+                   <p class="lower-message__content">
+                     ${data.content}
+                   </p>
+                 </div>
+                </div>`
     
   
     return html;
