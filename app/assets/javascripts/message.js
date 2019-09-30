@@ -65,16 +65,16 @@ $(document).on('turbolinks:load', function(){
     .done(function(message){
         var html = buildHTML(message);
         $('.messages').append(html);
-        $("#new_message")[0].reset();
-        $('#message_content').val('');
         $('.form__submit').attr('disabled', false);
-        
+        $("#new_message")[0].reset();
+        $('#message_content').val('');           
         $('html,body').animate({
           scrollTop:$('html,body')[0].scrollHeight
         }, 'fast');
       })
       .fail(function(){
         alert('error');
+        $('.form__submit').attr('disabled', false);
       })
   
       
