@@ -1,4 +1,5 @@
 .side-bar {
+  background-color: #2f3e51;
   box-sizing: border-box;
   color: $white;
   width: 300px;
@@ -29,13 +30,17 @@
     background-color: $side_blue_light;
     height: calc(100vh - 100px);
     padding: 0 20px;
+    color: #fff;
     .group {
+      
       box-sizing: border-box;
       padding: 20px 0 40px;
       &__name {
+        color: #fff;
         font-size: $side_group_name;
       }
       &__message {
+        color: #fff;
         font-size: $side_group_message;
         margin-top: 5px;
       }
